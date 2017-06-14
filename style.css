@@ -1,0 +1,27 @@
+#head {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#left{
+  float: left;
+  margin: 50px;
+  background-color: grey;
+
+}
+#right{
+  float:left;
+  margin: 50px;
+
+}
+#center{
+  text-align: center;
+  margin: 50px;
+  float: left;
+}
+
+body {
+  background-color:grey;
+  margin:0px;
+}
