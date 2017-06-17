@@ -1,5 +1,5 @@
 body {
-  border: 10px solid black;
+  /*border: 10px solid black;*/
   width: 600px;
   height: auto;
 
@@ -90,4 +90,5 @@ body {
 #container {
 	width: 600px;
 	height: 800px;
+  border: 10px solid black;
 }
