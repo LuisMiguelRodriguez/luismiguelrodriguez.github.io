@@ -1,17 +1,17 @@
 body {
   border: 10px solid black;
   width: 600px;
-  height: 500px;
+  height: 900px;
 
 
 }
 
 .line {
-  width:500px;
+  width:530px;
   border: 10px solid black;
   margin-top:0px;
   margin-right: auto;
-  
+
   border-top:10px white black;
 }
 .center {
@@ -33,43 +33,55 @@ body {
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: example;
-    animation-duration: 20s;
+    animation-duration: 40s;
 
 }
 @keyframes example {
-    0%   {background-color:black; left:0px; top:0px;}
-    10%  {background-color:black; left:280px; top:0px;}
-	
-    15%  {background-color:black; left:280px; top:60px;}
-	20%  {background-color:black; left:-280px; top:60px;}
-    
-	25% {background-color:black; left:-280px; top:120px;}
-	30% {background-color:black; left:280px; top:120px;}
-	
-	35% {background-color:black; left:280px; top:180px;}
-	40% {background-color:black; left:-280px; top:180px;}
-	
-	45% {background-color:black; left:-280px; top:240px;}
-	50% {background-color:black; left: 280px; top:240px;}
-	
-	50% {background-color:black; left: 280px; top:300px;}
-	55% {background-color:black; left:-280px; top:300px;}
-	
-	60% {background-color:black; left:-280px; top:360px;}
-	65% {background-color:black; left:280px; top:360px;}
-		
-	70% {background-color:black; left:280px; top:420px;}
-	75% {background-color:black; left:-280px; top:420px;}
-			
-	80% {background-color:black; left:-280px; top:480px;}
-	85% {background-color:black; left:280px; top:480px;}
-	
-	90% {background-color:black; left:280px; top:540px;}
-	95% {background-color:black; left:-280px; top:540px;}
-	
+  0%   {background-color:black; left:0px; top:0px;}
+  5%  {background-color:black; left:280px; top:0px;}
+
+  6%  {background-color:black; left:280px; top:60px;}
+	11%  {background-color:black; left:-280px; top:60px;}
+
+	12% {background-color:black; left:-280px; top:120px;}
+	17% {background-color:black; left:280px; top:120px;}
+
+	18% {background-color:black; left:280px; top:180px;}
+	23% {background-color:black; left:-280px; top:180px;}
+
+	24% {background-color:black; left:-280px; top:240px;}
+	29% {background-color:black; left: 280px; top:240px;}
+
+	30% {background-color:black; left: 280px; top:300px;}
+	35% {background-color:black; left:-280px; top:300px;}
+
+	36% {background-color:black; left:-280px; top:360px;}
+	41% {background-color:black; left:280px; top:360px;}
+
+	42% {background-color:black; left:280px; top:420px;}
+	47% {background-color:black; left:-280px; top:420px;}
+
+	48% {background-color:black; left:-280px; top:480px;}
+	53% {background-color:black; left:280px; top:480px;}
+
+	58% {background-color:black; left:280px; top:540px;}
+	63% {background-color:black; left:-280px; top:540px;}
+
+  64% {background-color:black; left:-280px; top:600px;}
+	69% {background-color:black; left:280px; top:600px;}
+
+	70% {background-color:black; left:280px; top:660px;}
+	75% {background-color:black; left:-280px; top:660px;}
+
+  76% {background-color:black; left:-280px; top:720px;}
+	81% {background-color:black; left:280px; top:720px;}
+
+	82% {background-color:black; left:280px; top:840px;}
+	87% {background-color:black; left:-280px; top:840px;}
+
 }
 .clear {
-	
+
   width:500px;
   border:solid white 10px;
 
